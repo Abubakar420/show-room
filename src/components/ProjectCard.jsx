@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
-import { FiArrowUpRight } from "react-icons/fi";
 import Image from "./Image";
 
 /**
