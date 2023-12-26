@@ -66,10 +66,17 @@ const Hero = ({ name }) => {
               cursor: "",
             }}
             onInit={(typewriter) => {
-              typewriter
-                .changeDelay(120)
-                .typeString("Software Engineer")
-                .start();
+              typewriter.changeDelay(120).typeString("Haris Naeem").start();
+            }}
+          />
+          <Typewriter
+            className="description"
+            color="red"
+            options={{
+              cursor: "",
+            }}
+            onInit={(typewriter) => {
+              typewriter.changeDelay(120).typeString("Waleed Naeem").start();
             }}
           />
         </motion.div>

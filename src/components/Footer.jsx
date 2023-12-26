@@ -14,12 +14,10 @@ const Footer = () => {
     <footer>
       <SocialIcons />
 
-      <a
-        className="footer-link"
-        href="https://github.com/muhammadnuman1305/portfolio"
-      >
+      <a className="footer-link" href="https://github.com/Abubakar420">
         <p>
-          <span>▷</span> Designed and built by Numan Zahid &copy; {currentYear}
+          <span>▷</span> Designed and built by Abubakar Rehman &copy;{" "}
+          {currentYear}
         </p>
       </a>
     </footer>

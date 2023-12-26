@@ -38,9 +38,10 @@ import PageNotFound from "./pages/404/PageNotFound";
 function App() {
   // Personal details for the user
   const personalDetails = {
-    name: "Numan Zahid",
-    location: "🇵🇰 Pakistan",
-    email: "numanzahid91@gmail.com",
+    name: "Rasheed Motor",
+    location:
+      "22 A Queen's Road, Commercial Area Mozang Chungi, Lahore, Punjab 54000",
+    email: "Waleednaeem99t@icloud.com",
     brand:
       "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
   };
@@ -66,7 +67,7 @@ function App() {
     // Handle document title change when tab visibility changes
     const handleTabChange = () => {
       if (document.hidden) {
-        document.title = "👋🏻 Numan Zahid !";
+        document.title = "👋🏻 Waleed Naeem !";
       } else {
         document.title = originalTitle;
       }

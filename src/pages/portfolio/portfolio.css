@@ -216,3 +216,9 @@
     padding: 0 var(--spacing);
   }
 }
+
+@media (max-width:450px) {
+  .projectTitle {
+    font-size: 19px;
+  }
+}

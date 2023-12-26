@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import nzImg from "../../images/NZ.svg";
+import nzImg from "../../images/whiterm.png";
 
 /**
  * Represents the Loader component.

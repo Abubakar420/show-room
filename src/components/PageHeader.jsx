@@ -6,9 +6,10 @@ import { motion } from "framer-motion";
  * @component
  * @param {string} title - The title of the page.
  * @param {string} description - The description of the page.
+ * @param {string} descriptions - The description of the page.
  */
 
-const PageHeader = ({ title, description }) => (
+const PageHeader = ({ title, description, descriptions }) => (
   <>
     {/* Page description */}
     <motion.p
@@ -27,6 +28,14 @@ const PageHeader = ({ title, description }) => (
       transition={{ duration: 0.5, ease: "easeInOut" }}
     >
       {title}
+    </motion.h3>
+    <motion.h3
+      className="pageDescription"
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, ease: "easeInOut" }}
+    >
+      {descriptions}
     </motion.h3>
   </>
 );

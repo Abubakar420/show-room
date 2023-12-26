@@ -44,7 +44,7 @@ const Draw = () => {
     <canvas
       ref={canvasRef}
       style={{ position: "absolute", top: 100, left: 0 }}
-      width={window.innerWidth}
+      // width={window.innerWidth}
       height={window.innerHeight - 100}
     />
   );

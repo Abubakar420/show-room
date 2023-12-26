@@ -26,7 +26,11 @@ const ProjectCard = ({ title, image, color, id }) => {
   };
 
   return (
-    <Link to={`/portfolio/${title.toLowerCase()}`} key={id} className="projectLink col-12 col-lg-6">
+    <Link
+      // to={`/portfolio/${title.toLowerCase()}`}
+      key={id}
+      className="projectLink col-12 col-lg-6"
+    >
       <motion.div
         ref={ref}
         className=""
@@ -38,13 +42,10 @@ const ProjectCard = ({ title, image, color, id }) => {
         <div
           style={{ backgroundColor: color }}
           className="projectCard d-flex align-items-center justify-content-center p-5"
-          onClick={() => {}}
+          // onClick={() => {}}
         >
           <div className="textWrap col-6 d-flex flex-column justify-content-center align-items-center m-5">
             <h3 className="projectTitle">{title}</h3>
-            <span className="viewWork">
-              View Work <FiArrowUpRight />
-            </span>
           </div>
           <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
             <Image src={image} alt="Laptop displaying the application" />
